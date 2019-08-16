@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="file:/home/josorio/Proyectos/Universidad/Ontologia/OWLAPITutorial/createdOntology.owl"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="file:/home/josorio/Proyectos/Universidad/Ontologia/OWLAPITutorial/createdOntology.owl">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Adulto"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Hija"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Hijo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Hombre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Madre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Mujer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Padre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Persona"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneHija"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneHijo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneMadre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tienePadre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#edad"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#numeroHijos"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#maria"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#mariajr"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiago"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiagojr"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Mujer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#maria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Persona"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#maria"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Mujer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#mariajr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Persona"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#mariajr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Hombre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiago"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Persona"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiago"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Hombre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiagojr"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Persona"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiagojr"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneHija"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#maria"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#mariajr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneHijo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#maria"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiagojr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneHija"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiago"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#mariajr"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneHijo"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiago"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiagojr"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#edad"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#maria"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#nombre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#maria"/>
+        <Literal>Maria J. Tabares</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#edad"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#mariajr"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#nombre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#mariajr"/>
+        <Literal>Maria Jr. Tabares</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#edad"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiago"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">55</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#nombre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiago"/>
+        <Literal>Santiago Gil</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#edad"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiagojr"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#nombre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#santiagojr"/>
+        <Literal>Santiago Jr. Gil</Literal>
+    </DataPropertyAssertion>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneHija"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Madre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneHija"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Padre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneHijo"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Madre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneHijo"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Padre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneMadre"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Hija"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneMadre"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Hijo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tienePadre"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Hija"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tienePadre"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Hijo"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneHija"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Hija"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneHijo"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Hijo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tieneMadre"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Madre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#tienePadre"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Padre"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#edad"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Persona"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#nombre"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Persona"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#numeroHijos"/>
+        <Class IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#Persona"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#edad"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/ontologies/ontological-engineering-2019-1/test-blank-ontology.owl#numeroHijos"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 5.1.11.2019-06-02T22:25:23Z) https://github.com/owlcs/owlapi/ -->
+
+
